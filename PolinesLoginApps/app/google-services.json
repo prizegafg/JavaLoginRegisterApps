@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1002734969915",
+    "project_id": "polinesloginapp",
+    "storage_bucket": "polinesloginapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002734969915:android:db7694786bfe691297681e",
+        "android_client_info": {
+          "package_name": "com.example.polinesloginapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002734969915-r5q9918e34sv37c9n39ar5v14qcev6h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg_3MZ1vRE1ATjaZAWZhP8heyok8o04v4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002734969915-r5q9918e34sv37c9n39ar5v14qcev6h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002734969915:android:a25e0906fbf0580e97681e",
+        "android_client_info": {
+          "package_name": "com.prizega.polinesloginapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002734969915-r5q9918e34sv37c9n39ar5v14qcev6h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg_3MZ1vRE1ATjaZAWZhP8heyok8o04v4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002734969915-r5q9918e34sv37c9n39ar5v14qcev6h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

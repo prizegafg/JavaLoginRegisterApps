@@ -168,7 +168,7 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <ImageButton
-                    android:id="@+id/btn_sign_in_apple_login"
+                    android:id="@+id/btn_sign_in_apple_regis"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:backgroundTint="@color/grey"
@@ -176,7 +176,7 @@
                     android:src="@drawable/apple"/>
 
                 <ImageButton
-                    android:id="@+id/btn_sign_in_google_login"
+                    android:id="@+id/btn_sign_in_google_regis"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="15dp"

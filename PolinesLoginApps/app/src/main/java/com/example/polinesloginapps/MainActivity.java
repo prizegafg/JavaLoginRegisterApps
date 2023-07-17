@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+import com.prizega.polinesloginapps.R;
+
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,23 +20,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnGoToLogin = findViewById(R.id.btn_go_to_login);
         Button btnGoToRegister = findViewById(R.id.btn_go_to_register);
 
-        btnGoToLogin.setOnClickListener(this);
-        btnGoToRegister.setOnClickListener(this);
+        btnGoToLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent moveIntent = new Intent(MainActivity.this, LoginView.class);
+                startActivity(moveIntent);
+            }
+        });
+        btnGoToRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent navigateIntent = new Intent(MainActivity.this, RegisterView.class);
+                startActivity(navigateIntent);
+            }
+        });
 
 
 
-    }
-
-    @Override
-    public void onClick(View view) {
-
-        if (view.getId() == R.id.btn_go_to_login) {
-            Intent moveIntent = new Intent(MainActivity.this, LoginView.class);
-            startActivity(moveIntent);
-        }else if (view.getId() == R.id.btn_go_to_register) {
-            Intent navigateIntent = new Intent(MainActivity.this, RegisterView.class);
-            startActivity(navigateIntent);
-        }
     }
 
 }
